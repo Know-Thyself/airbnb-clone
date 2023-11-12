@@ -9,7 +9,17 @@ const Navbar = () => {
 		<div className='fixed w-full bg-white z-10 shadow-sm'>
 			<div className='border-b-[1px]'></div>
 			<Container>
-				<div className='flex flex-row items-center justify-between gap-3 md:gap-0 py-4'>
+				<div
+					className='
+                    flex
+                    flex-row
+                    items-center
+                    justify-between
+                    gap-3
+                    md:gap-0
+                    py-4
+                    '
+				>
 					<Logo />
 					<Search />
 					<UserMenu />
